@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+
+        <form id="registrationForm">
+            <div>
+                <label for="username">Enter your username:</label>
+                <input type="text" id="username" name="username"
+                    placeholder="Enter your name" required>
+               
+                <label for="email">Enter your Gmail:</label>
+                <input type="email" id="email" name="email"
+                    placeholder="Enter your Gmail" required>
+                
+
+                <label for="password">Enter your password:</label>
+                <input type="password" id="password" name="password"
+                    placeholder="Enter your password" required>
+                
+            </div>
+
+            <h2>Enter your Gender</h2>
+            <div>
+                <input type="radio" name="gender" id="male" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="Female">
+                <label for="female">Female</label>
+                <br>
+            </div>
+            <div>
+                <h2>Enter your Graduation Year</h2>
+                <input type="number" name="year" id="year"
+                    placeholder="Enter your graduation year" required>
+               
+                <div></div>
+                <input type="submit" value="Submit">
+            </div>
+            </div>
+        </form>
+    </body>
+</html>
